@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-'''Task 2's module.
-'''
+"""
+Write a type-annotated function floor
+which takes a float n as argument
+and returns the floor of the float.
+"""
 
 
-import math
-
-
-def floor(a: float) -> int:
-    '''Computes the floor of a floating-point number.
-    '''
-    return math.floor(a)
+def floor(n: float) -> int:
+    """
+    A function that takes a float and returns the floor of the float
+    """
+    return int(n)

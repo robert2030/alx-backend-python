@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
-'''Task 7's module.
-'''
+"""
+Function: to_kv
+Params: k(str), v(int or float)
+Returns: tuple
+Author: Akanimoh George
+"""
 from typing import Union, Tuple
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
-    '''Converts a key and its value to a tuple of the key and
-    the square of its value.
-    '''
-    return (k, float(v**2))
+    """
+    A function that takes a string and an int or float and returns a tuple
+    """
+    return (k, v * v)

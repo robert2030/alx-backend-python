@@ -1,10 +1,20 @@
 #!/usr/bin/env python3
-'''Task 8's module.
-'''
+"""
+Function: make_multiplier
+Params: multiplier(float)
+Returns: function that multiplies a float by multiplier
+Author : Akanimoh George
+"""
+
 from typing import Callable
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
-    '''Creates a multiplier function.
-    '''
-    return lambda x: x * multiplier
+    """
+    A function that takes a float
+    and returns a function that multiplies
+    a float by multiplier
+    """
+    def multiply(n: float) -> float:
+        return n * multiplier
+    return multiply

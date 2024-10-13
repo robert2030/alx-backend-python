@@ -4,6 +4,7 @@
 Function: zoom_array
 Params: lst(Tuple), factor(int)
 Returns: Tuple
+Author: Akanimoh George
 """
 from typing import Tuple, List
 

@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
-'''Module for task 3.
-'''
+"""
+Function: to_str
+Params: n(float)
+Returns: n(str)
+Author : Akanimoh George
+"""
 
 
 def to_str(n: float) -> str:
-    '''Cast a floting type number in to a string.
-    '''
+    """
+    A function that takes a float
+    and returns the string representation
+    of the float
+    """
     return str(n)
